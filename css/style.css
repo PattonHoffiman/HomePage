@@ -1,0 +1,46 @@
+main {
+    width: 80%;
+    margin: auto;
+}
+body {
+    margin: 0;
+    background: #ccc;
+    font-family: arial, sans-serif;
+}
+
+.banner {
+    height: 500px;
+    background-size:cover;
+    background-position: right center;
+    background-image: url(../images/background.jpg);
+}
+.banner-content {
+    color: white;
+    text-align: center;
+}
+.banner-content h1 {
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+    text-transform: uppercase;
+}
+
+.section-content{
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white;
+}
+.section-content header h2 {
+    padding: 10px;
+    background-color: #e2e2e2;
+    border-bottom: 2px solid #b1b1b1;
+}
+
+.rodape {
+    color: #fff;
+    height: 80px;
+    font-size: 14px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #6b6c68;
+    text-shadow: 2px 2px 2px #000;
+}
