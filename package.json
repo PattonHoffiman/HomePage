@@ -1,0 +1,22 @@
+{
+  "name": "HomePage",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "reload -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PattonHoffiman/HomePage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PattonHoffiman/HomePage/issues"
+  },
+  "homepage": "https://github.com/PattonHoffiman/HomePage#readme",
+  "devDependencies": {
+    "reload": "^3.1.0"
+  }
+}
