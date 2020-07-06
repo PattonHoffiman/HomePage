@@ -1,105 +1,114 @@
 body {
-    margin: 0;
-    background: #ccc;
-    font-family: arial, sans-serif;
+  margin: 0;
+  background: #ccc;
+  font-family: arial, sans-serif;
 }
 main {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 footer {
-    color: #fff;
-    height: 80px;
-    font-size: 14px;
-    line-height: 80px;
-    text-align: center;
-    background-color: #6b6c68;
-    text-shadow: 2px 2px 2px #000;
+  color: #fff;
+  height: 80px;
+  font-size: 14px;
+  line-height: 80px;
+  text-align: center;
+  background-color: #6b6c68;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .banner {
-    height: 500px;
-    background-size:cover;
-    background-position: right center;
-    border-top: 1px solid transparent;
-    background-image: url(../images/background.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: right center;
+  border-top: 1px solid transparent;
+  background-image: url(../images/background.jpg);
 }
-.banner nav a{
-    color: #fff;
-    padding: 15px;
-    display: block;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: rgba(0,0,0,0.3);
+.banner nav a {
+  color: #fff;
+  padding: 15px;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .banner nav ul {
-    text-align: right;
-    margin: 20px 50px 0px 0px;
+  text-align: right;
+  margin: 20px 50px 0px 0px;
 }
 .banner nav li {
-    list-style:  none;
-    margin-left: 10px;
-    display: inline-block;
-    border: 1px solid #fff;
+  list-style: none;
+  margin-left: 10px;
+  display: inline-block;
+  border: 1px solid #fff;
 }
 .banner-content {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
-.banner-content p{
-    padding: 10px;
-    display: inline-block;
-    border-bottom: 2px solid #fff;
-    background-color: rgba(0,0,0, 0.8);
+.banner-content p {
+  padding: 10px;
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .banner-content h1 {
-    font-size: 46px;
-    text-shadow: 3px 3px 2px #333;
-    text-transform: uppercase;
+  font-size: 46px;
+  text-shadow: 3px 3px 2px #333;
+  text-transform: uppercase;
 }
 .banner nav a:hover {
-    background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card {
-    width: 32%;
-    float: left;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  flex: 1;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.card p{
-    color: #fff;
-    margin: 0px;
-    padding: 15px;
-    text-align: center;
-    background-color: #404040;
-    text-transform: uppercase;
+.card p {
+  color: #fff;
+  margin: 0px;
+  padding: 15px;
+  text-align: center;
+  background-color: #404040;
+  text-transform: uppercase;
 }
-.card-pad{
-    margin-right: 2%;
+.card-pad {
+  margin-right: 2%;
 }
 .card img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.section-content{
-    padding: 10px;
-    overflow: auto;
-    margin-top: 15px;
-    background-color: white;
+.section-content {
+  display: flex;
+  padding: 10px;
+  overflow: auto;
+  margin-top: 15px;
+  background-color: white;
 }
 .section-content p {
-    padding: 0px 10px;
+  padding: 0px 10px;
 }
 .section-content header h2 {
-    margin: 5px;
-    padding: 10px;
-    background-color: #e2e2e2;
-    border-bottom: 2px solid #b1b1b1;
+  margin: 5px;
+  padding: 10px;
+  background-color: #e2e2e2;
+  border-bottom: 2px solid #b1b1b1;
+}
+
+@media (max-width: 991px) {
+  .section-content {
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
 }
