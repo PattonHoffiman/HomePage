@@ -2,7 +2,7 @@
 
 Um Home Page Genérico mostrando minhas habilidades em HTML5 e CSS3. O conteúdo mostrado é fruto do aprendizado absorvido no Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos, por Daniel Tapias Morales, da Udemy.
 
-[Clique aqui e acesse](C:\Users\Patto\OneDrive\Documentos\GitHub\HomePage\index.html).
+[Clique aqui e acesse](https://pattonhoffiman.github.io/HomePage/).
 
 ### Rodando o projeto local
 
