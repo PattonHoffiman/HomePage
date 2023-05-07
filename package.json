@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/PattonHoffiman/HomePage#readme",
   "devDependencies": {
-    "reload": "^3.1.0"
+    "reload": "^3.2.1"
   }
 }
